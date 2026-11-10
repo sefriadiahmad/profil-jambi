@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Wisata - Profil Jambi</title>
+  <link rel="icon" type="image/png" href="img/logo_jambi.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="k3-site-header">
+    <img src="img/jambi_alam_1.jpeg" alt="" class="k3-header-bg" aria-hidden="true">
+    <div class="k3-logo-wrap">
+      <img src="img/logo_jambi.png" alt="Logo Jambi" class="k3-logo">
+    </div>
+    <h1>Pesona Jambi, Sepucuk Jambi Sembilan Lurah</h1>
+  </header>
+
+  <nav id="k3-nav">
+    <button type="button" id="k3-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span class="k3-menu-text">Menu</span><span class="k3-burger"><span></span><span></span><span></span></span></button>
+    <ul id="k3-menu-list">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="profil.html">Sejarah & Profil</a></li>
+      <li><a href="data.html" class="k3-aktif">Data Wisata</a></li>
+      <li><a href="galeri.html">Galeri</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main class="k3-data-page">
+    <section class="k3-data-hero k3-reveal" aria-labelledby="k3-data-title">
+      <p class="k3-section-label">Info praktis perjalanan</p>
+      <h2 id="k3-data-title">Data Pariwisata Jambi</h2>
+      <p>Informasi praktis delapan destinasi: sejarah, alam, rekreasi keluarga, serta ruang publik Kota Jambi.</p>
+      <div class="k3-hero-actions">
+        <a href="#k3-destinasi" class="k3-btn k3-btn-primary">Lihat destinasi</a>
+        <a href="#k3-tabel-wisata" class="k3-btn k3-btn-dark">Tabel ringkas</a>
+      </div>
+    </section>
+
+    <section class="k3-data-stats" aria-label="Ringkasan data wisata">
+      <div class="k3-data-stat k3-reveal"><strong>8</strong><span>Destinasi didata</span></div>
+        <div class="k3-data-stat k3-reveal"><strong>4</strong><span>Kategori wisata</span></div>
+      <div class="k3-data-stat k3-reveal"><strong>2</strong><span>Lokasi gratis</span></div>
+        <div class="k3-data-stat k3-reveal"><strong>24 jam</strong><span>Danau Kaco buka</span></div>
+    </section>
+
+    <section id="k3-destinasi" class="k3-data-destinasi" aria-labelledby="k3-destinasi-title">
+      <div class="k3-data-heading k3-reveal">
+        <p class="k3-section-label">Pilihan destinasi</p>
+        <h2 id="k3-destinasi-title">Jelajahi tempat wisata</h2>
+        <p>Saring berdasarkan kategori untuk menemukan destinasi yang cocok dengan rencana perjalanan Anda.</p>
+      </div>
+
+      <div class="k3-filter k3-data-filter" role="group" aria-label="Filter kategori destinasi">
+        <button type="button" class="k3-btn-filter k3-data-filter-btn k3-aktif" data-kategori="semua">Semua</button>
+        <button type="button" class="k3-btn-filter k3-data-filter-btn" data-kategori="sejarah">Sejarah</button>
+        <button type="button" class="k3-btn-filter k3-data-filter-btn" data-kategori="alam">Alam</button>
+        <button type="button" class="k3-btn-filter k3-data-filter-btn" data-kategori="rekreasi">Rekreasi</button>
+        <button type="button" class="k3-btn-filter k3-data-filter-btn" data-kategori="kota">Kota</button>
+      </div>
+
+      <div id="k3-data-cards" class="k3-data-cards">
+        <article class="k3-data-card k3-reveal" data-kategori="sejarah">
+          <img src="img/candi.jpeg" alt="Candi Muaro Jambi" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-sejarah">Wisata Sejarah</span>
+            <h3>Candi Muaro Jambi</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd>Rp 15.000</dd></div>
+              <div><dt>Jam operasional</dt><dd>08:00 - 18:00</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="sejarah">
+          <img src="img/jambi_alam_2.jpeg" alt="Menara Gentala Arasy di Sungai Batanghari" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-sejarah">Wisata Sejarah</span>
+            <h3>Menara Gentala Arasy</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd>Jembatan gratis, museum Rp3.000</dd></div>
+              <div><dt>Jam operasional</dt><dd>Jembatan 24 jam, museum 08:00 - 16:00</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="alam">
+          <img src="img/danau_kaco.jpeg" alt="Danau Kaco di Taman Nasional Kerinci Seblat" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-alam">Wisata Alam</span>
+            <h3>Danau Kaco</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd>Rp15.000</dd></div>
+              <div><dt>Jam operasional</dt><dd>24 jam</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="alam">
+          <img src="img/jambi_alam_1.jpeg" alt="Danau Sipin" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-alam">Wisata Alam</span>
+            <h3>Danau Sipin</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd><span class="k3-harga-gratis">Gratis</span></dd></div>
+              <div><dt>Jam operasional</dt><dd>24 jam</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="rekreasi">
+          <img src="img/jambi_paradise.jpeg" alt="Taman Wisata Jambi Paradise" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-kota">Rekreasi Keluarga</span>
+            <h3>Taman Wisata Jambi Paradise</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd>Rp30.000 - Rp50.000</dd></div>
+              <div><dt>Jam operasional</dt><dd>09:00 - 22:00</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="rekreasi">
+          <img src="img/taman_rimba.jpg" alt="Taman Rimbo Zoo Area" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-kota">Rekreasi Keluarga</span>
+            <h3>Taman Rimbo Zoo Area</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd>Rp9.000 anak; Rp15.000 dewasa</dd></div>
+              <div><dt>Jam operasional</dt><dd>09:00 - 16:00</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="kota">
+          <img src="img/tugu_siginjai.jpeg" alt="Tugu Keris Siginjai" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-kota">Wisata Kota</span>
+            <h3>Tugu Keris Siginjai</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd><span class="k3-harga-gratis">Gratis</span></dd></div>
+              <div><dt>Jam operasional</dt><dd>24 jam</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="k3-data-card k3-reveal" data-kategori="kota">
+          <img src="img/hutan_kota.jpeg" alt="Hutan Kota Muhammad Sabki" loading="lazy">
+          <div class="k3-data-card-body">
+            <span class="k3-badge k3-badge-kota">Wisata Kota</span>
+            <h3>Hutan Kota Muhammad Sabki</h3>
+            <dl class="k3-data-meta-list">
+              <div><dt>Harga tiket</dt><dd>Rp8.000</dd></div>
+              <div><dt>Jam operasional</dt><dd>06:00 - 18:00</dd></div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="k3-tabel-wisata" class="k3-data-table-section" aria-labelledby="k3-tabel-title">
+      <div class="k3-data-heading k3-reveal">
+        <p class="k3-section-label">Ringkasan lengkap</p>
+        <h2 id="k3-tabel-title">Tabel harga & jam operasional</h2>
+        <p>Versi ringkas untuk membandingkan semua destinasi dalam satu pandangan.</p>
+      </div>
+
+      <div class="k3-data-container k3-reveal">
+        <div class="k3-table-scroll">
+          <table>
+            <caption>Daftar Harga Tiket dan Jam Operasional Destinasi Wisata Jambi</caption>
+            <thead>
+              <tr>
+                <th scope="col">Kategori</th>
+                <th scope="col">Nama Destinasi</th>
+                <th scope="col">Harga Tiket</th>
+                <th scope="col">Jam Operasional</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" rowspan="2" class="k3-kat-sejarah">Sejarah & Budaya</th>
+                <td>Candi Muaro Jambi</td>
+                <td>Rp 15.000</td>
+                <td>08:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Menara Gentala Arasy</td>
+                <td>Jembatan gratis; museum Rp3.000</td>
+                <td>Jembatan 24 jam; museum 05:30 - 00:00</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="2" class="k3-kat-alam">Wisata Alam</th>
+                <td>Danau Kaco</td>
+                <td>Rp10.000</td>
+                <td>24 jam</td>
+              </tr>
+              <tr>
+                <td>Danau Sipin</td>
+                <td><span class="k3-harga-gratis">Gratis</span></td>
+                <td>24 jam</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="2" class="k3-kat-kota">Rekreasi Keluarga</th>
+                <td>Taman Wisata Jambi Paradise</td>
+                <td>Rp30.000</td>
+                <td>09:00 - 22:00</td>
+              </tr>
+              <tr>
+                <td>Taman Rimbo Zoo Area</td>
+                <td>Rp6.000 anak; Rp12.000 dewasa</td>
+                <td>08:00 - 17:00</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="2" class="k3-kat-kota">Wisata Kota</th>
+                <td>Tugu Keris Siginjai</td>
+                <td><span class="k3-harga-gratis">Gratis</span></td>
+                <td>24 jam</td>
+              </tr>
+              <tr>
+                <td>Hutan Kota Muhammad Sabki</td>
+                <td>Rp5.000</td>
+                <td>08:00 - 18:00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Total Destinasi Wisata yang Didata: 8 Lokasi</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="k3-data-info" aria-labelledby="k3-catatan-title">
+      <div class="k3-catatan k3-reveal">
+        <h3 id="k3-catatan-title">Catatan penting</h3>
+        <ul>
+          <li>Harga tiket dan jam operasional dapat berubah. Konfirmasi sebelum berkunjung.</li>
+          <li>Wahana Jambi Paradise serta sewa sepeda dan perahu dikenakan biaya terpisah.</li>
+          <li>Danau Kaco perlu perjalanan trekking; disarankan berkunjung pagi hingga sore hari.</li>
+          <li>Jam operasional dapat berbeda pada hari libur nasional atau bulan Ramadan.</li>
+        </ul>
+      </div>
+      <aside class="k3-sumber k3-reveal">
+        <p class="k3-sumber-label">Sumber data</p>
+        <p>Data diperoleh melalui observasi mandiri di beberapa destinasi wisata di Provinsi Jambi pada 8 November 2026 serta penelusuran dari berbagai sumber informasi. Harga tiket dan jam operasional perlu dikonfirmasi kembali sebelum berkunjung.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="k3-site-footer">
+    <div class="k3-footer-col k3-footer-brand">
+      <div class="k3-footer-brand-row">
+        <img src="img/logo_jambi.png" alt="Logo Jambi" class="k3-footer-logo">
+        <span class="k3-footer-brandname">Provinsi Jambi</span>
+      </div>
+      <p class="k3-footer-desc">Jambi, Bumi Pucuk Jambi Sembilan Lurah, provinsi kaya alam, budaya, dan sejarah di timur Sumatera.</p>
+    </div>
+    <div class="k3-footer-col">
+      <h3>Tautan Cepat</h3>
+      <ul class="k3-footer-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Sejarah & Profil</a></li>
+        <li><a href="data.html">Data Wisata</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="k3-footer-col">
+      <h3>Anggota Kelompok</h3>
+      <ul class="k3-footer-members">
+        <li>Ahmad Sefriadi <span class="k3-nim">24111058</span></li>
+        <li>Abbil Pradifa <span class="k3-nim">24111052</span></li>
+        <li>Dzakira Putri <span class="k3-nim">24111059</span></li>
+        <li>Syarif Hidayatullah <span class="k3-nim">24111008</span></li>
+      </ul>
+    </div>
+    <div class="k3-footer-bottom">
+      <p class="k3-kelompok">Kelompok 3</p>
+      <p>FKKK5406 Pemrograman Berbasis Web | Semester Ganjil 2026/2027</p>
+      <p>Universitas Nurdin Hamzah</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

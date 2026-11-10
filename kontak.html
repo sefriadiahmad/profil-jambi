@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Profil Jambi</title>
+  <link rel="icon" type="image/png" href="img/logo_jambi.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="k3-site-header">
+    <img src="img/jambi_alam_1.jpeg" alt="" class="k3-header-bg" aria-hidden="true">
+    <div class="k3-logo-wrap">
+      <img src="img/logo_jambi.png" alt="Logo Jambi" class="k3-logo">
+    </div>
+    <h1>Pesona Jambi, Sepucuk Jambi Sembilan Lurah</h1>
+  </header>
+
+  <nav id="k3-nav">
+    <button type="button" id="k3-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span class="k3-menu-text">Menu</span><span class="k3-burger"><span></span><span></span><span></span></span></button>
+    <ul id="k3-menu-list">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="profil.html">Sejarah & Profil</a></li>
+      <li><a href="data.html">Data Wisata</a></li>
+      <li><a href="galeri.html">Galeri</a></li>
+      <li><a href="kontak.html" class="k3-aktif">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main class="k3-kontak-page">
+    <section class="k3-kontak-intro k3-reveal" aria-labelledby="k3-kontak-title">
+      <p class="k3-section-label">Ada pertanyaan?</p>
+      <h2 id="k3-kontak-title">Hubungi Kami</h2>
+      <p>Kirim pertanyaan seputar wisata Jambi atau bagikan pengalaman perjalanan Anda. Kami siap membantu merencanakan kunjungan.</p>
+    </section>
+
+    <section class="k3-kontak-layout" aria-label="Informasi dan formulir kontak">
+      <aside class="k3-kontak-info k3-reveal">
+        <div class="k3-kontak-info-card">
+          <p class="k3-kontak-info-label">Alamat</p>
+          <h3>Kampus Universitas Nurdin Hamzah Jambi</h3>
+          <p>Jalan Kolonel Abunjani RT.25 Selamat,<br>Kec. Telanaipura, Kota Jambi, Provinsi Jambi</p>
+        </div>
+        <div class="k3-kontak-info-card">
+          <p class="k3-kontak-info-label">Kontak</p>
+          <h3>Saluran resmi</h3>
+          <p>Email: <a href="mailto:kelompok3@unh.ac.id">kelompok3@unh.ac.id</a><br>Telepon: (0741) 123456</p>
+        </div>
+        <div class="k3-kontak-info-card">
+          <p class="k3-kontak-info-label">Respon</p>
+          <h3>1-2 hari kerja</h3>
+          <p>Pesan biasanya dibalas pada hari kerja. Untuk info tiket dan jam buka, lihat juga <a href="data.html">data wisata</a>.</p>
+        </div>
+        <p class="k3-kontak-info-note">Ingin melihat suasana destinasi? Kunjungi <a href="galeri.html">galeri foto</a>.</p>
+      </aside>
+
+      <div class="k3-kontak-form-wrap k3-reveal">
+        <form id="k3-form-kontak" action="#" method="post">
+          <div class="k3-form-header">
+            <h3>Formulir informasi wisata</h3>
+            <p>Isi data di bawah. Tanda <span class="k3-required">*</span> wajib dilengkapi.</p>
+          </div>
+
+          <div id="k3-pesan" role="status" aria-live="polite"></div>
+
+          <div class="k3-form-grid">
+            <div class="k3-field">
+              <label for="nama">Nama Lengkap <span class="k3-required">*</span></label>
+              <input type="text" id="nama" name="nama" autocomplete="name" required>
+            </div>
+            <div class="k3-field">
+              <label for="email">Email <span class="k3-required">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="k3-field">
+              <label for="hp">Nomor HP/WhatsApp <span class="k3-required">*</span></label>
+              <input type="tel" id="hp" name="hp" pattern="[0-9]+" title="Hanya boleh angka" inputmode="numeric" autocomplete="tel" required>
+            </div>
+            <div class="k3-field">
+              <label for="tanggal">Rencana Tanggal Berkunjung</label>
+              <input type="date" id="tanggal" name="tanggal">
+            </div>
+            <div class="k3-field k3-field-full">
+              <label for="asal">Daerah Asal</label>
+              <select id="asal" name="asal">
+                <option value="">-- Pilih Daerah Asal --</option>
+                <option value="dalam">Dalam Kota Jambi</option>
+                <option value="luar-provinsi">Luar Provinsi Jambi</option>
+                <option value="luar-sumatera">Luar Pulau Sumatera</option>
+                <option value="luar-negeri">Luar Negeri</option>
+              </select>
+            </div>
+          </div>
+
+          <fieldset class="k3-choice-group">
+            <legend>Tujuan Kunjungan</legend>
+            <div class="k3-chip-group k3-radio-group">
+              <label class="k3-chip">
+                <input type="radio" name="tujuan" value="liburan" checked>
+                <span>Liburan</span>
+              </label>
+              <label class="k3-chip">
+                <input type="radio" name="tujuan" value="penelitian">
+                <span>Penelitian</span>
+              </label>
+              <label class="k3-chip">
+                <input type="radio" name="tujuan" value="bisnis">
+                <span>Bisnis</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="k3-choice-group">
+            <legend>Minat Wisata <span class="k3-required">*</span></legend>
+            <div class="k3-chip-group k3-checkbox-group">
+              <label class="k3-chip">
+                <input type="checkbox" name="minat" value="sejarah">
+                <span>Wisata Sejarah</span>
+              </label>
+              <label class="k3-chip">
+                <input type="checkbox" name="minat" value="alam">
+                <span>Wisata Alam</span>
+              </label>
+              <label class="k3-chip">
+                <input type="checkbox" name="minat" value="kuliner">
+                <span>Kuliner Khas</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="k3-field k3-field-full">
+            <label for="pesan">Pesan atau Pertanyaan <span class="k3-required">*</span></label>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Ceritakan pertanyaan Anda (minimal 20 karakter)..." required></textarea>
+          </div>
+
+          <button type="submit" class="k3-btn k3-btn-primary k3-kontak-submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="k3-site-footer">
+    <div class="k3-footer-col k3-footer-brand">
+      <div class="k3-footer-brand-row">
+        <img src="img/logo_jambi.png" alt="Logo Jambi" class="k3-footer-logo">
+        <span class="k3-footer-brandname">Provinsi Jambi</span>
+      </div>
+      <p class="k3-footer-desc">Jambi, Bumi Pucuk Jambi Sembilan Lurah, provinsi kaya alam, budaya, dan sejarah di timur Sumatera.</p>
+    </div>
+    <div class="k3-footer-col">
+      <h3>Tautan Cepat</h3>
+      <ul class="k3-footer-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Sejarah & Profil</a></li>
+        <li><a href="data.html">Data Wisata</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="k3-footer-col">
+      <h3>Anggota Kelompok</h3>
+      <ul class="k3-footer-members">
+        <li>Ahmad Sefriadi <span class="k3-nim">24111058</span></li>
+        <li>Abbil Pradifa <span class="k3-nim">24111052</span></li>
+        <li>Dzakira Putri <span class="k3-nim">24111059</span></li>
+        <li>Syarif Hidayatullah <span class="k3-nim">24111008</span></li>
+      </ul>
+    </div>
+    <div class="k3-footer-bottom">
+      <p class="k3-kelompok">Kelompok 3</p>
+      <p>FKKK5406 Pemrograman Berbasis Web | Semester Ganjil 2026/2027</p>
+      <p>Universitas Nurdin Hamzah</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

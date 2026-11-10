@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri - Profil Jambi</title>
+  <link rel="icon" type="image/png" href="img/logo_jambi.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="k3-site-header">
+    <img src="img/jambi_alam_1.jpeg" alt="" class="k3-header-bg" aria-hidden="true">
+    <div class="k3-logo-wrap">
+      <img src="img/logo_jambi.png" alt="Logo Jambi" class="k3-logo">
+    </div>
+    <h1>Pesona Jambi, Sepucuk Jambi Sembilan Lurah</h1>
+  </header>
+
+  <nav id="k3-nav">
+    <button type="button" id="k3-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span class="k3-menu-text">Menu</span><span class="k3-burger"><span></span><span></span><span></span></span></button>
+    <ul id="k3-menu-list">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="profil.html">Sejarah & Profil</a></li>
+      <li><a href="data.html">Data Wisata</a></li>
+      <li><a href="galeri.html" class="k3-aktif">Galeri</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main class="k3-galeri-page">
+    <section class="k3-galeri-hero" aria-labelledby="k3-galeri-title">
+      <img src="img/bg_galeri.jpg" alt="" class="k3-galeri-hero-bg" aria-hidden="true">
+      <div class="k3-galeri-hero-content k3-reveal">
+        <p class="k3-section-label">Jejak visual Jambi</p>
+        <h2 id="k3-galeri-title">Galeri Foto</h2>
+        <p>Suasana alam, jejak sejarah, dan rasa kuliner dalam satu koleksi visual.</p>
+        <a href="#k3-koleksi" class="k3-btn k3-btn-primary">Jelajahi koleksi</a>
+      </div>
+    </section>
+
+    <section id="k3-koleksi" class="k3-galeri-koleksi" aria-labelledby="k3-koleksi-title">
+      <div class="k3-galeri-toolbar">
+        <h2 id="k3-koleksi-title" class="k3-galeri-toolbar-title">Koleksi</h2>
+        <div class="k3-galeri-tabs" role="tablist" aria-label="Filter kategori galeri">
+          <button type="button" class="k3-galeri-tab k3-aktif" role="tab" aria-selected="true" data-kategori="semua">Semua</button>
+          <button type="button" class="k3-galeri-tab" role="tab" aria-selected="false" data-kategori="sejarah">Sejarah</button>
+          <button type="button" class="k3-galeri-tab" role="tab" aria-selected="false" data-kategori="alam">Alam</button>
+          <button type="button" class="k3-galeri-tab" role="tab" aria-selected="false" data-kategori="kuliner">Kuliner</button>
+        </div>
+      </div>
+
+      <div id="k3-wadah-galeri" class="k3-galeri-mosaic" aria-live="polite">
+        <!-- Foto akan di-generate oleh JavaScript -->
+      </div>
+    </section>
+
+    <section class="k3-galeri-foot">
+      <p>Ingin mengunjungi lokasi di foto? Lihat <a href="data.html">data wisata</a> atau <a href="kontak.html">hubungi kami</a>.</p>
+    </section>
+  </main>
+
+  <div id="k3-lightbox" class="k3-lightbox" hidden aria-hidden="true">
+    <div class="k3-lightbox-backdrop" data-lightbox-close></div>
+    <div class="k3-lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="k3-lightbox-title">
+      <button type="button" class="k3-lightbox-close" data-lightbox-close aria-label="Tutup">&times;</button>
+      <button type="button" class="k3-lightbox-nav k3-lightbox-prev" aria-label="Foto sebelumnya">‹</button>
+      <button type="button" class="k3-lightbox-nav k3-lightbox-next" aria-label="Foto berikutnya">›</button>
+      <figure class="k3-lightbox-figure">
+        <img id="k3-lightbox-img" src="" alt="">
+        <figcaption>
+          <p class="k3-lightbox-kategori" id="k3-lightbox-kategori"></p>
+          <h3 id="k3-lightbox-title"></h3>
+          <p id="k3-lightbox-desc"></p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <footer class="k3-site-footer">
+    <div class="k3-footer-col k3-footer-brand">
+      <div class="k3-footer-brand-row">
+        <img src="img/logo_jambi.png" alt="Logo Jambi" class="k3-footer-logo">
+        <span class="k3-footer-brandname">Provinsi Jambi</span>
+      </div>
+      <p class="k3-footer-desc">Jambi, Bumi Pucuk Jambi Sembilan Lurah, provinsi kaya alam, budaya, dan sejarah di timur Sumatera.</p>
+    </div>
+    <div class="k3-footer-col">
+      <h3>Tautan Cepat</h3>
+      <ul class="k3-footer-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Sejarah & Profil</a></li>
+        <li><a href="data.html">Data Wisata</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="k3-footer-col">
+      <h3>Anggota Kelompok</h3>
+      <ul class="k3-footer-members">
+        <li>Ahmad Sefriadi <span class="k3-nim">24111058</span></li>
+        <li>Abbil Pradifa <span class="k3-nim">24111052</span></li>
+        <li>Dzakira Putri <span class="k3-nim">24111059</span></li>
+        <li>Syarif Hidayatullah <span class="k3-nim">24111008</span></li>
+      </ul>
+    </div>
+    <div class="k3-footer-bottom">
+      <p class="k3-kelompok">Kelompok 3</p>
+      <p>FKKK5406 Pemrograman Berbasis Web | Semester Ganjil 2026/2027</p>
+      <p>Universitas Nurdin Hamzah</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Nama: Ahmad Sefriadi
+NIM: 24111058
+Halaman: index.html, galeri.html
+Tanggung Jawab: Beranda, lead CSS, lead JavaScript, koordinasi umum
+---
+Nama: Abbil Pradifa
+NIM: 24111052
+Halaman: profil.html
+Tanggung Jawab: Sejarah & Profil, riset konten sejarah
+---
+Nama: Dzakira Putri
+NIM: 24111059
+Halaman: data.html
+Tanggung Jawab: Data tabel wisata, wawancara narasumber
+---
+Nama: Syarif Hidayatullah
+NIM: 24111008
+Halaman: kontak.html
+Tanggung Jawab: Kontak
